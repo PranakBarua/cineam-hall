@@ -25,6 +25,7 @@ function App() {
           <PrivateRoute path="/cinema">
             <Cinema></Cinema>
           </PrivateRoute>
+          
           <Route path="/ticket/:cinemaName">
             <Ticket></Ticket>
           </Route>
